@@ -1,0 +1,14 @@
+// Запустить компиляцию SASS:
+
+// sass --watch ./styles/scss/style.scss:./styles/css/style.css
+
+@import './blocks/reset';
+@import './blocks/body';
+@import './blocks/container';
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/reusables';
+@import './blocks/sauces';
+@import './blocks/sauce-story';
+@import './blocks/footer';
+@import './blocks/media';
