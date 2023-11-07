@@ -49,10 +49,15 @@
 
 .sauces-card {
   padding: 129px 23px 23px 23px;
-  background-image: url(/images/green-dome.svg);
+  background-image: url(../../../images/green-dome.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+  }
 }
 
 .sauces-card__type {
